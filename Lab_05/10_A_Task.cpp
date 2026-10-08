@@ -64,7 +64,9 @@ void peek()
 }
 
 int main()
-{
+{   while(true)
+    {
+        
     int choice = menu();
     if(choice == 1)
     {   int val;
@@ -76,11 +78,11 @@ int main()
     {
         isEmpty();
         pop();
-    } else if(choice == 2)
+    } else if(choice == 3)
     {
         isEmpty();
         peek();
-    } else if(choice == 2)
+    } else if(choice == 4)
     {
        return 0;
     }
@@ -88,5 +90,6 @@ int main()
     {
         cout<<"Invalid Input...!";
         return 0;
+    }
     }
 }

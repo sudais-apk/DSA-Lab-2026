@@ -69,11 +69,11 @@ int main()
     {
         isEmpty();
         pop();
-    } else if(choice == 2)
+    } else if(choice == 3)
     {
         isEmpty();
         peek();
-    } else if(choice == 2)
+    } else if(choice == 4)
     {
        return 0;
     }
