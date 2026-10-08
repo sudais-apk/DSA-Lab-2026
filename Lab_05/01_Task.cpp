@@ -1,4 +1,4 @@
-// Task 2- POP Operation (Array):
+// Task 1- Push Operation (Array):
 // Objective: To remove an element
 
 #include<iostream>
